@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: ai-readiness-gauntlet
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: HUBSPOT_API_KEY
+        sync: false
+      - key: HUBSPOT_PORTAL_ID
+        sync: false
+      - key: NODE_ENV
+        value: production
