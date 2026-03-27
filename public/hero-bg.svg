@@ -1,0 +1,184 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow1" cx="25%" cy="30%" r="35%">
+      <stop offset="0%" stop-color="#1e3a6e" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0a1628" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="75%" cy="65%" r="30%">
+      <stop offset="0%" stop-color="#2d1b69" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0a1628" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow3" cx="60%" cy="20%" r="25%">
+      <stop offset="0%" stop-color="#0d4a3a" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0a1628" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow4" cx="10%" cy="80%" r="30%">
+      <stop offset="0%" stop-color="#1a3a5c" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0a1628" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="node-glow" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="node-glow-purple" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="node-glow-green" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur-sm">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="blur-lg">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+
+  <!-- Base -->
+  <rect width="1920" height="1080" fill="#0a1628"/>
+
+  <!-- Large ambient glows -->
+  <rect width="1920" height="1080" fill="url(#glow1)"/>
+  <rect width="1920" height="1080" fill="url(#glow2)"/>
+  <rect width="1920" height="1080" fill="url(#glow3)"/>
+  <rect width="1920" height="1080" fill="url(#glow4)"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.04" stroke="#3b82f6" stroke-width="0.5">
+    <line x1="0" y1="0" x2="0" y2="1080"/><line x1="60" y1="0" x2="60" y2="1080"/>
+    <line x1="120" y1="0" x2="120" y2="1080"/><line x1="180" y1="0" x2="180" y2="1080"/>
+    <line x1="240" y1="0" x2="240" y2="1080"/><line x1="300" y1="0" x2="300" y2="1080"/>
+    <line x1="360" y1="0" x2="360" y2="1080"/><line x1="420" y1="0" x2="420" y2="1080"/>
+    <line x1="480" y1="0" x2="480" y2="1080"/><line x1="540" y1="0" x2="540" y2="1080"/>
+    <line x1="600" y1="0" x2="600" y2="1080"/><line x1="660" y1="0" x2="660" y2="1080"/>
+    <line x1="720" y1="0" x2="720" y2="1080"/><line x1="780" y1="0" x2="780" y2="1080"/>
+    <line x1="840" y1="0" x2="840" y2="1080"/><line x1="900" y1="0" x2="900" y2="1080"/>
+    <line x1="960" y1="0" x2="960" y2="1080"/><line x1="1020" y1="0" x2="1020" y2="1080"/>
+    <line x1="1080" y1="0" x2="1080" y2="1080"/><line x1="1140" y1="0" x2="1140" y2="1080"/>
+    <line x1="1200" y1="0" x2="1200" y2="1080"/><line x1="1260" y1="0" x2="1260" y2="1080"/>
+    <line x1="1320" y1="0" x2="1320" y2="1080"/><line x1="1380" y1="0" x2="1380" y2="1080"/>
+    <line x1="1440" y1="0" x2="1440" y2="1080"/><line x1="1500" y1="0" x2="1500" y2="1080"/>
+    <line x1="1560" y1="0" x2="1560" y2="1080"/><line x1="1620" y1="0" x2="1620" y2="1080"/>
+    <line x1="1680" y1="0" x2="1680" y2="1080"/><line x1="1740" y1="0" x2="1740" y2="1080"/>
+    <line x1="1800" y1="0" x2="1800" y2="1080"/><line x1="1860" y1="0" x2="1860" y2="1080"/>
+    <line x1="0" y1="60" x2="1920" y2="60"/><line x1="0" y1="120" x2="1920" y2="120"/>
+    <line x1="0" y1="180" x2="1920" y2="180"/><line x1="0" y1="240" x2="1920" y2="240"/>
+    <line x1="0" y1="300" x2="1920" y2="300"/><line x1="0" y1="360" x2="1920" y2="360"/>
+    <line x1="0" y1="420" x2="1920" y2="420"/><line x1="0" y1="480" x2="1920" y2="480"/>
+    <line x1="0" y1="540" x2="1920" y2="540"/><line x1="0" y1="600" x2="1920" y2="600"/>
+    <line x1="0" y1="660" x2="1920" y2="660"/><line x1="0" y1="720" x2="1920" y2="720"/>
+    <line x1="0" y1="780" x2="1920" y2="780"/><line x1="0" y1="840" x2="1920" y2="840"/>
+    <line x1="0" y1="900" x2="1920" y2="900"/><line x1="0" y1="960" x2="1920" y2="960"/>
+    <line x1="0" y1="1020" x2="1920" y2="1020"/>
+  </g>
+
+  <!-- Network connections -->
+  <g stroke-width="0.8" opacity="0.12">
+    <line x1="320" y1="200" x2="580" y2="350" stroke="#3b82f6"/>
+    <line x1="580" y1="350" x2="900" y2="280" stroke="#3b82f6"/>
+    <line x1="900" y1="280" x2="1200" y2="400" stroke="#8b5cf6"/>
+    <line x1="1200" y1="400" x2="1500" y2="300" stroke="#8b5cf6"/>
+    <line x1="1500" y1="300" x2="1700" y2="450" stroke="#3b82f6"/>
+    <line x1="320" y1="200" x2="200" y2="450" stroke="#10b981"/>
+    <line x1="200" y1="450" x2="450" y2="600" stroke="#10b981"/>
+    <line x1="450" y1="600" x2="750" y2="520" stroke="#3b82f6"/>
+    <line x1="750" y1="520" x2="900" y2="280" stroke="#3b82f6"/>
+    <line x1="750" y1="520" x2="1050" y2="650" stroke="#8b5cf6"/>
+    <line x1="1050" y1="650" x2="1200" y2="400" stroke="#8b5cf6"/>
+    <line x1="1050" y1="650" x2="1350" y2="750" stroke="#10b981"/>
+    <line x1="1350" y1="750" x2="1600" y2="650" stroke="#3b82f6"/>
+    <line x1="1600" y1="650" x2="1700" y2="450" stroke="#3b82f6"/>
+    <line x1="580" y1="350" x2="450" y2="600" stroke="#8b5cf6"/>
+    <line x1="1500" y1="300" x2="1350" y2="750" stroke="#10b981"/>
+    <line x1="200" y1="450" x2="100" y2="700" stroke="#3b82f6"/>
+    <line x1="100" y1="700" x2="300" y2="850" stroke="#3b82f6"/>
+    <line x1="300" y1="850" x2="600" y2="800" stroke="#8b5cf6"/>
+    <line x1="600" y1="800" x2="450" y2="600" stroke="#10b981"/>
+    <line x1="600" y1="800" x2="900" y2="900" stroke="#3b82f6"/>
+    <line x1="900" y1="900" x2="1050" y2="650" stroke="#8b5cf6"/>
+    <line x1="900" y1="900" x2="1200" y2="950" stroke="#10b981"/>
+    <line x1="1200" y1="950" x2="1350" y2="750" stroke="#3b82f6"/>
+    <line x1="1200" y1="950" x2="1500" y2="900" stroke="#8b5cf6"/>
+    <line x1="1500" y1="900" x2="1600" y2="650" stroke="#3b82f6"/>
+    <line x1="1500" y1="900" x2="1750" y2="850" stroke="#10b981"/>
+    <line x1="1750" y1="850" x2="1700" y2="450" stroke="#3b82f6"/>
+    <line x1="1750" y1="850" x2="1850" y2="600" stroke="#8b5cf6"/>
+    <line x1="1850" y1="600" x2="1700" y2="450" stroke="#3b82f6"/>
+  </g>
+
+  <!-- Node glows (large, soft) -->
+  <circle cx="320" cy="200" r="40" fill="url(#node-glow)" filter="url(#blur-lg)" opacity="0.4"/>
+  <circle cx="900" cy="280" r="50" fill="url(#node-glow)" filter="url(#blur-lg)" opacity="0.3"/>
+  <circle cx="1200" cy="400" r="45" fill="url(#node-glow-purple)" filter="url(#blur-lg)" opacity="0.35"/>
+  <circle cx="750" cy="520" r="35" fill="url(#node-glow-green)" filter="url(#blur-lg)" opacity="0.3"/>
+  <circle cx="1050" cy="650" r="40" fill="url(#node-glow-purple)" filter="url(#blur-lg)" opacity="0.25"/>
+  <circle cx="1600" cy="650" r="35" fill="url(#node-glow)" filter="url(#blur-lg)" opacity="0.3"/>
+
+  <!-- Network nodes (bright dots) -->
+  <g>
+    <circle cx="320" cy="200" r="3" fill="#3b82f6" opacity="0.8"/>
+    <circle cx="580" cy="350" r="2.5" fill="#3b82f6" opacity="0.6"/>
+    <circle cx="900" cy="280" r="4" fill="#3b82f6" opacity="0.9"/>
+    <circle cx="1200" cy="400" r="3.5" fill="#8b5cf6" opacity="0.8"/>
+    <circle cx="1500" cy="300" r="2.5" fill="#8b5cf6" opacity="0.6"/>
+    <circle cx="1700" cy="450" r="3" fill="#3b82f6" opacity="0.7"/>
+    <circle cx="200" cy="450" r="2.5" fill="#10b981" opacity="0.6"/>
+    <circle cx="450" cy="600" r="3" fill="#10b981" opacity="0.7"/>
+    <circle cx="750" cy="520" r="3.5" fill="#3b82f6" opacity="0.8"/>
+    <circle cx="1050" cy="650" r="3" fill="#8b5cf6" opacity="0.7"/>
+    <circle cx="1350" cy="750" r="2.5" fill="#10b981" opacity="0.6"/>
+    <circle cx="1600" cy="650" r="3" fill="#3b82f6" opacity="0.7"/>
+    <circle cx="100" cy="700" r="2" fill="#3b82f6" opacity="0.5"/>
+    <circle cx="300" cy="850" r="2.5" fill="#3b82f6" opacity="0.5"/>
+    <circle cx="600" cy="800" r="2" fill="#8b5cf6" opacity="0.5"/>
+    <circle cx="900" cy="900" r="2.5" fill="#3b82f6" opacity="0.5"/>
+    <circle cx="1200" cy="950" r="2" fill="#10b981" opacity="0.4"/>
+    <circle cx="1500" cy="900" r="2.5" fill="#8b5cf6" opacity="0.5"/>
+    <circle cx="1750" cy="850" r="2" fill="#10b981" opacity="0.4"/>
+    <circle cx="1850" cy="600" r="2" fill="#8b5cf6" opacity="0.4"/>
+  </g>
+
+  <!-- Small scattered particles -->
+  <g opacity="0.3">
+    <circle cx="150" cy="150" r="1" fill="#3b82f6"/><circle cx="400" cy="100" r="1.2" fill="#8b5cf6"/>
+    <circle cx="700" cy="150" r="0.8" fill="#10b981"/><circle cx="1000" cy="100" r="1" fill="#3b82f6"/>
+    <circle cx="1300" cy="180" r="1.2" fill="#8b5cf6"/><circle cx="1600" cy="120" r="0.8" fill="#10b981"/>
+    <circle cx="1800" cy="200" r="1" fill="#3b82f6"/><circle cx="250" cy="350" r="0.8" fill="#8b5cf6"/>
+    <circle cx="650" cy="400" r="1.2" fill="#3b82f6"/><circle cx="1100" cy="350" r="0.8" fill="#10b981"/>
+    <circle cx="1400" cy="500" r="1" fill="#3b82f6"/><circle cx="1800" cy="350" r="1.2" fill="#8b5cf6"/>
+    <circle cx="100" cy="550" r="0.8" fill="#10b981"/><circle cx="500" cy="500" r="1" fill="#3b82f6"/>
+    <circle cx="850" cy="600" r="1.2" fill="#8b5cf6"/><circle cx="1150" cy="550" r="0.8" fill="#10b981"/>
+    <circle cx="1450" cy="600" r="1" fill="#3b82f6"/><circle cx="1700" cy="550" r="1.2" fill="#8b5cf6"/>
+    <circle cx="50" cy="850" r="1" fill="#3b82f6"/><circle cx="350" cy="750" r="0.8" fill="#10b981"/>
+    <circle cx="700" cy="700" r="1.2" fill="#3b82f6"/><circle cx="1000" cy="800" r="0.8" fill="#8b5cf6"/>
+    <circle cx="1300" cy="850" r="1" fill="#10b981"/><circle cx="1600" cy="800" r="1.2" fill="#3b82f6"/>
+    <circle cx="1850" cy="750" r="0.8" fill="#8b5cf6"/><circle cx="200" cy="950" r="1" fill="#3b82f6"/>
+    <circle cx="500" cy="950" r="0.8" fill="#10b981"/><circle cx="800" cy="1000" r="1.2" fill="#8b5cf6"/>
+    <circle cx="1100" cy="1000" r="0.8" fill="#3b82f6"/><circle cx="1400" cy="1000" r="1" fill="#10b981"/>
+    <circle cx="1700" cy="950" r="1.2" fill="#3b82f6"/><circle cx="1900" cy="1000" r="0.8" fill="#8b5cf6"/>
+  </g>
+
+  <!-- Hexagonal accents -->
+  <g opacity="0.05" stroke="#3b82f6" stroke-width="1" fill="none">
+    <polygon points="960,200 1000,223 1000,269 960,292 920,269 920,223"/>
+    <polygon points="480,500 520,523 520,569 480,592 440,569 440,523"/>
+    <polygon points="1440,700 1480,723 1480,769 1440,792 1400,769 1400,723"/>
+  </g>
+
+  <!-- Orbit rings -->
+  <g opacity="0.04" stroke="#3b82f6" stroke-width="0.8" fill="none">
+    <ellipse cx="960" cy="540" rx="400" ry="200" transform="rotate(-15 960 540)"/>
+    <ellipse cx="960" cy="540" rx="550" ry="280" transform="rotate(10 960 540)"/>
+  </g>
+
+  <!-- Vignette edges -->
+  <rect width="1920" height="1080" fill="url(#vignette)" opacity="0.6"/>
+  <defs>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0a1628" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0a1628" stop-opacity="0.8"/>
+    </radialGradient>
+  </defs>
+</svg>
